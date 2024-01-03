@@ -1,6 +1,6 @@
-package com.github.lauvsong.languagecursor
+package com.github.lauvsong.langcursor
 
-import com.github.lauvsong.languagecursor.utils.NotifyUtil
+import com.github.lauvsong.langcursor.utils.NotifyUtil
 import com.intellij.ide.IdeEventQueue
 import com.intellij.openapi.Disposable
 import com.intellij.openapi.fileEditor.FileEditorManager
@@ -50,7 +50,7 @@ class ProjectOpenStartUpActivity : StartupActivity.DumbAware {
 
     private fun notifyNotSupportedOs(project: Project) {
         NotifyUtil.byBalloonWarning(project, """
-            Language Cursor may not supported on your OS.
+            LangCursor may not supported on your OS.
             Windows and macOS are supported.
         """.trimIndent())
     }

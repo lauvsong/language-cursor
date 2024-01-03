@@ -1,4 +1,4 @@
-package com.github.lauvsong.languagecursor.settings
+package com.github.lauvsong.langcursor.settings
 
 import com.intellij.ui.ColorPanel
 import com.intellij.ui.components.JBLabel

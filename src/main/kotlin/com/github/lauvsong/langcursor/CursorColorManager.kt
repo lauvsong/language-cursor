@@ -1,6 +1,6 @@
-package com.github.lauvsong.languagecursor
+package com.github.lauvsong.langcursor
 
-import com.github.lauvsong.languagecursor.settings.AppSettingsState
+import com.github.lauvsong.langcursor.settings.AppSettingsState
 import com.intellij.openapi.editor.Editor
 import com.intellij.openapi.editor.colors.EditorColors
 import com.intellij.openapi.editor.colors.EditorColorsManager

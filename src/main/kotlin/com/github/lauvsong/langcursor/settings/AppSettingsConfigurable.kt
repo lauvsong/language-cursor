@@ -1,4 +1,4 @@
-package com.github.lauvsong.languagecursor.settings
+package com.github.lauvsong.langcursor.settings
 
 import com.intellij.openapi.options.Configurable
 import javax.swing.JComponent
@@ -8,7 +8,7 @@ class AppSettingsConfigurable : Configurable {
     private lateinit var settingsComponent : AppSettingsComponent
 
     override fun getDisplayName(): String =
-        "Language Cursor"
+        "LangCursor"
 
     override fun createComponent(): JComponent? {
         settingsComponent = AppSettingsComponent()

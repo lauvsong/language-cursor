@@ -1,4 +1,4 @@
-package com.github.lauvsong.languagecursor.utils
+package com.github.lauvsong.langcursor.utils
 
 import com.intellij.notification.NotificationGroupManager
 import com.intellij.notification.NotificationType

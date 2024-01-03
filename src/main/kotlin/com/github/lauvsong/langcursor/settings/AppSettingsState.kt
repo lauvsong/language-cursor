@@ -1,4 +1,4 @@
-package com.github.lauvsong.languagecursor.settings
+package com.github.lauvsong.langcursor.settings
 
 import com.intellij.openapi.components.PersistentStateComponent
 import com.intellij.openapi.components.State
@@ -9,7 +9,7 @@ import com.intellij.util.xmlb.XmlSerializerUtil
 import java.awt.Color
 
 @State(
-    name = "com.github.lauvsong.languagecursor.settings.AppSettingsState",
+    name = "com.github.lauvsong.langcursor.settings.AppSettingsState",
     storages = [Storage("AppSettingsState.xml")]
 )
 class AppSettingsState : PersistentStateComponent<AppSettingsState> {
