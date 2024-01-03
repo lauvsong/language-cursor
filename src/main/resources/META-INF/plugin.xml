@@ -1,7 +1,7 @@
 <!-- Plugin Configuration File. Read more: https://plugins.jetbrains.com/docs/intellij/plugin-configuration-file.html -->
 <idea-plugin>
-    <id>com.github.lauvsong.languagecursor</id>
-    <name>Language Cursor</name>
+    <id>com.github.lauvsong.langcursor</id>
+    <name>LangCursor</name>
     <vendor>lauvsong</vendor>
 
     <depends>com.intellij.modules.platform</depends>
@@ -9,12 +9,12 @@
     <extensions defaultExtensionNs="com.intellij">
         <applicationConfigurable
                 parentId="tools"
-                instance="com.github.lauvsong.languagecursor.settings.AppSettingsConfigurable"
-                id="com.github.lauvsong.languagecursor.settings.AppSettingsConfigurable"
-                displayName="Language Cursor"
+                instance="com.github.lauvsong.langcursor.settings.AppSettingsConfigurable"
+                id="com.github.lauvsong.langcursor.settings.AppSettingsConfigurable"
+                displayName="LangCursor"
         />
-        <applicationService serviceImplementation="com.github.lauvsong.languagecursor.settings.AppSettingsState"/>
-        <postStartupActivity implementation="com.github.lauvsong.languagecursor.ProjectOpenStartUpActivity"/>
+        <applicationService serviceImplementation="com.github.lauvsong.langcursor.settings.AppSettingsState"/>
+        <postStartupActivity implementation="com.github.lauvsong.langcursor.ProjectOpenStartUpActivity"/>
         <notificationGroup
                 id="balloon"
                 displayType="BALLOON"
